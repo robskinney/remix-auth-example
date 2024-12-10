@@ -12,7 +12,7 @@ export default function Navbar({ user }: { user?: User }) {
         <div className="flex h-14 items-center align-middle justify-between border-b border-zinc-200">
           <div className="flex items-center gap-x-4">
             <Link to="/" className="flex z-40 font-semibold">
-              <span>Rocket Tutoring</span>
+              <span>Remix Auth Example</span>
             </Link>
           </div>
           {user ? (

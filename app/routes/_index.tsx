@@ -22,7 +22,7 @@ export default function Index() {
       <div className="flex flex-col items-center gap-16">
         <header className="flex flex-col items-center gap-9">
           <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
-            {user?.name}
+            {user ? user.name : "Log in or sign up to see your name!"}
           </h1>
         </header>
       </div>
